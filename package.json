@@ -1,0 +1,44 @@
+{
+  "name": "png-info",
+  "version": "0.0.1",
+  "description": "Get information about a PNG from its headers",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Willyham/png-info.git"
+  },
+  "keywords": [
+    "png",
+    "headers",
+    "IHDR",
+    "PLTE",
+    "tRNS",
+    "gAMA",
+    "cHRM",
+    "sRGB",
+    "iCCP",
+    "tEXt",
+    "bKGD",
+    "pHYs",
+    "sBIT",
+    "sPLT",
+    "hIST",
+    "tIME",
+    "image",
+    "width",
+    "height"
+  ],
+  "author": "Willyham <willdemaine@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Willyham/png-info/issues"
+  },
+  "homepage": "https://github.com/Willyham/png-info#readme",
+  "devDependencies": {
+    "tape": "^4.2.0",
+    "uber-standard": "^4.0.1"
+  }
+}
