@@ -31,19 +31,19 @@ var width = pngInfo.chunks.IHDR.width;
 Only IHDR is currently implemented, please feel free to add any other chunks that you need:
 
   - [x] IHDR
-  - [] PLTE
-  - [] tRNS
-  - [] gAMA
-  - [] cHRM
-  - [] sRGB
-  - [] iCCP
-  - [] tEXt
-  - [] bKGD
-  - [] pHYs
-  - [] sBIT
-  - [] sPLT
-  - [] hIST
-  - [] tIME
+  - [ ] PLTE
+  - [ ] tRNS
+  - [ ] gAMA
+  - [ ] cHRM
+  - [ ] sRGB
+  - [ ] iCCP
+  - [ ] tEXt
+  - [ ] bKGD
+  - [ ] pHYs
+  - [ ] sBIT
+  - [ ] sPLT
+  - [ ] hIST
+  - [ ] tIME
 
 # Development
 
