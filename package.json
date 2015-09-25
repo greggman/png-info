@@ -4,7 +4,10 @@
   "description": "Get information about a PNG from its headers",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "npm run lint && npm run cover",
+    "lint": "standard -v --reporter stylish && echo '# linter passed'",
+    "cover": "istanbul cover --report cobertura --print detail tape -- test/index.tap.js test/**/*.tap.js",
+    "view-cover": "istanbul cover --report html tape -- test/index.tap.js test/**/*.tap.js && opn coverage/index.html"
   },
   "repository": {
     "type": "git",
@@ -40,5 +43,8 @@
   "devDependencies": {
     "tape": "^4.2.0",
     "uber-standard": "^4.0.1"
+  },
+  "dependencies": {
+    "buffer-equal": "0.0.1"
   }
 }
